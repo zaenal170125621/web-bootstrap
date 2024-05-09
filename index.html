@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Tautan ke Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Tautan ke CSS Tambahan -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <!-- Daftar menu di sebelah kanan -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item mx-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Project
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Project 1</a>
+                <a class="dropdown-item" href="#">Project 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More Projects</a>
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <div class="home container-fluid vh-100 d-flex align-items-center">
+      <div class="ml-5">
+        <h1 class=" thome text-white">Halo Bang !!</h1>
+        <p class="text-white">This is the homepage.</p>
+      </div>
+    </div>
+
+    <!-- SVG untuk Header -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#000000" fill-opacity="1" d="M0,128L26.7,128C53.3,128,107,128,160,149.3C213.3,171,267,213,320,234.7C373.3,256,427,256,480,218.7C533.3,181,587,107,640,80C693.3,53,747,75,800,101.3C853.3,128,907,160,960,144C1013.3,128,1067,64,1120,32C1173.3,0,1227,0,1280,10.7C1333.3,21,1387,43,1413,53.3L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+    </svg>
+
+    <!-- ABOUT -->
+    <div class="container vh-100 d-flex align-items-center">
+      <div class="d-flex mt-5">
+        <div class="card mx-3" style="width: 16em">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="mx-3 w-75">
+            <h1 class="text-black">About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam magni veniam mollitia illo rerum, maiores, praesentium consectetur esse autem, atque dignissimos aperiam nesciunt id repellat laboriosam. Voluptatum, voluptates voluptatibus?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="container mb-5">
+      <div class="galeri">
+          <h1 class="text-center my-5">Gallery</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img-fluid">
+            </div>
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img">
+            </div>
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img">
+            </div>
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img">
+            </div>
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img">
+            </div>
+            <div class="col-md-4 gallery-item">
+              <img src="https://via.placeholder.com/300" alt="Gallery Image" class="img">
+            </div>
+            <!-- Tambahkan gambar-gambar galeri lainnya di sini -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="kontak pt-5">
+      <div>
+        <div class="text-white mx-5 mt-5">
+          <h1 class="text-white">Contact Us</h1>
+          <p>Email: zmuttakin000@gmail.com</p>
+          <p>Phone: 085939592558</p>
+          <!-- Peta menggunakan Google Maps Embed API -->
+          <div class="map-container text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d362.4585767382146!2d108.28008977943848!3d-7.088647935707964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1715284590075!5m2!1sid!2sid"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-white ml-5">Follow Me</h4>
+        <!-- Tautan sosial media -->
+        <div class="social-links text-center pb-5">
+          <a href="https://www.facebook.com/" class="social-link" target="_blank">
+            <img src="facebook_logo.png" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/" class="social-link" target="_blank">
+            <img src="instagram_logo.png" alt="Instagram">
+          </a>
+          <a href="https://github.com/" class="social-link" target="_blank">
+            <img src="github_logo.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <span>&copy; 2024 _zentod. All rights reserved</span>
+      </div>
+    </footer>
+
+    <!-- Tautan ke Bootstrap JavaScript (Opsional, untuk beberapa komponen) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

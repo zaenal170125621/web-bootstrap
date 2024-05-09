@@ -1,0 +1,54 @@
+.navbar {
+  background: linear-gradient(to right, #0D47A1, #1565C0, #1976D2, #1E88E5);
+}
+
+.home{
+    background-color: #000000;
+}
+
+h1 {
+    color: #0b0342;
+    border: 3px solid black; /* ketebalan 2px dan warna border hitam */
+    border-radius: 10px;
+    padding: 10px; /* tambahkan padding agar teks tidak terlalu dekat dengan border */
+}
+
+h1.thome {
+  border: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+
+h4 {
+    margin-top: 100px;
+}
+.galeri{
+    background-color: rgb(224, 224, 224);
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .map-container iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .kontak {
+      background: linear-gradient(to right, #0A2565, #0D47A1, #035398, #00507e);
+      }
+  
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
